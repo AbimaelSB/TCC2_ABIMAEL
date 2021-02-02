@@ -19,6 +19,9 @@
 <a name="listaTarefas"></a>
 ## Tarefa :clipboard:
 
-- [] Configurar cenário com um nó RPL, protocolo de aplicação MQTT e cinco nós IoT.
+- [x] Configurar cenário com um nó RPL, protocolo de aplicação MQTT e cinco nós IoT.
+
+  * Baixando o protocolo de aplicação MQTT-SN na pasta do Contiki.
+     
 
 <div align="center"><button><a href="../2_configurar_cenario_com_um_no_rpl/1_graficos_gerados/README.md"><< Anterior</a></button></div>
