@@ -23,7 +23,7 @@
 <a name="listaTarefas"></a>
 - [x] Instalar o Contiki-OS, que detém do Simulador/Emulador Cooja, no ubuntu 16.04 LTS (máquina real :computer:) <a name="instalarContikiOS">
 
-   * Tutorial utilizado para a instalação: <https://youtube.com/watch?v=MSqYGkZPhVw> :movie_camera:.  
+   * Tutorial utilizado para a instalação: <https://youtube.com/watch?v=MSqYGkZPhVw> 
       [![Vídeo Tutorial instalação do Cooja no Ubuntu 16.04 LTS](https://img.youtube.com/vi/MSqYGkZPhVw/hqdefault.jpg)](https://youtube.com/watch?v=MSqYGkZPhVw)
    ___
 
