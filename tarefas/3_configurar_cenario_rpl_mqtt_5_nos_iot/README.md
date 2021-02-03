@@ -21,7 +21,8 @@
 
 - [x] Configurar cenário com um nó RPL, protocolo de aplicação MQTT e cinco nós IoT.
 
-  * Baixando o protocolo de aplicação MQTT-SN na pasta do Contiki. <br/> Tutorial utilizado:     <https://www.youtube.com/watch?v=5qfoOCtIbEg>
+  * Baixando o protocolo de aplicação MQTT-SN na pasta do Contiki e executando o cenário teste. <br/> Tutorial utilizado:     <https://www.youtube.com/watch?v=5qfoOCtIbEg>
       [![Vídeo Tutorial instalação do protocolo MQTT-SN no Contiki](https://img.youtube.com/vi/5qfoOCtIbEg/hqdefault.jpg)](https://youtube.com/watch?v=5qfoOCtIbEg)
+      
 
 <div align="center"><button><a href="../2_configurar_cenario_com_um_no_rpl/1_graficos_gerados/README.md"><< Anterior</a></button></div>
