@@ -24,10 +24,11 @@
   * Baixando o protocolo de aplicação MQTT-SN na pasta do Contiki e executando o cenário teste. <br/> Tutorial utilizado:     <https://www.youtube.com/watch?v=5qfoOCtIbEg>
       [![Vídeo Tutorial instalação do protocolo MQTT-SN no Contiki](https://img.youtube.com/vi/5qfoOCtIbEg/hqdefault.jpg)](https://youtube.com/watch?v=5qfoOCtIbEg)
    
-      - Criar um novo mote (Border Router) - Sky Mote - contiki/example/ipv6/rpl-border-router/border-router.c
+      - Criar um novo mote *Border Router*. <br/>
+      ```Sky Mote >> contiki/example/ipv6/rpl-border-router/border-router.c```
 
       - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
-      ``` git clone https://github.com/aignacio/mqtt-sn-c...​ ```
+      ```git clone https://github.com/aignacio/mqtt-sn-contiki.c```
 
       - Renomear de `mqtt-sn-contiki_example` para `mqtt-sn`.
 
@@ -44,5 +45,13 @@
       - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - sudo ./broker_mqtts config.mqtt`
 
       - Rodar a Simulação.
+
+   * Informativos da execução do presente tutorial.
+
+      - Resolvido como declarar e exportar a variavel $JAVA_HOME.
+      - Ao tentar utilizar os nós do tipo Sky mote, ocorre um erro.
+      - Cenário construido com os nós Z1, porém a troca das mensagens não passa pelo Broker.
+
+      Obs: Tópicos serão melhor detalhados, com prints.
 
 <div align="center"><button><a href="../2_configurar_cenario_com_um_no_rpl/1_graficos_gerados/README.md"><< Anterior</a></button></div>
