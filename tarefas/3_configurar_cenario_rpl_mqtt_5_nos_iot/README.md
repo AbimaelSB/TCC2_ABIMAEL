@@ -61,7 +61,8 @@
 
    * Informativos da execução do presente tutorial.
 
-      - Resolvido como declarar e exportar a variavel $JAVA_HOME.
+      - Resolvido como declarar e exportar a variavel $JAVA_HOME.         
+         O caminho depende do seu sistema operacional, você pode verificar o caminho completo usando o comando:
 
          ```bash
          $ sudo update-alternatives --config java.                  
