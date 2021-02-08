@@ -76,6 +76,8 @@
          JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
          ```
 
+         Em seguida utilize o comando abaixo para recarregar as variáveis:
+         
          ```bash
          $ source /etc/environment
          ```
