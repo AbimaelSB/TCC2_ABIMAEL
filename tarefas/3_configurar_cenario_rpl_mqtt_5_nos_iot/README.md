@@ -25,16 +25,18 @@
       [![Vídeo Tutorial instalação do protocolo MQTT-SN no Contiki](https://img.youtube.com/vi/5qfoOCtIbEg/hqdefault.jpg)](https://youtube.com/watch?v=5qfoOCtIbEg)
    
       - Criar um novo mote *Border Router*. <br/>
-      ```Sky Mote >> contiki/example/ipv6/rpl-border-router/border-router.c```
+      ```yaml
+         Z1 Mote >> contiki/example/ipv6/rpl-border-router/border-router.c
+      ```
 
       - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
       ```git clone https://github.com/aignacio/mqtt-sn-contiki.c```
 
       - Renomear de `mqtt-sn-contiki_example` para `mqtt-sn`.
 
-      - Criar um novo mote do tipo *Publisher* - *Sky Mote* - `contiki/mqtt-sn-contiki/main_core.c`
+      - Criar um novo mote do tipo *Publisher* - *Z1 Mote* - `contiki/mqtt-sn-contiki/main_core.c`
 
-      - Criar um novo mote do tipo *Subscriber* - *Sky Mote* - `contiki/mqtt-sn-contiki/main_core.c`
+      - Criar um novo mote do tipo *Subscriber* - *Z1 Mote* - `contiki/mqtt-sn-contiki/main_core.c`
 
       - Clicar com o botão direito no *Border Router* - *Motel Tool* - *Serial Socket (Server)*
 
@@ -91,7 +93,7 @@
 
          /usr/lib/jvm/java-8-openjdk-amd64
          ```
-      - Ao tentar utilizar os nós do tipo Sky mote, ocorre um erro.
+      - Ao tentar utilizar os nós do tipo Z1 mote, ocorre um erro.
       - Cenário construido com os nós Z1, porém a troca das mensagens não passa pelo Broker.
       - Ainda não identificado o motivo dos nós no contiki não publicarem/increverem nos topicos.
 
