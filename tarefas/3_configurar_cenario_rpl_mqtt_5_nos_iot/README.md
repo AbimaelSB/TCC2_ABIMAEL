@@ -25,7 +25,7 @@
       [![Vídeo Tutorial instalação do protocolo MQTT-SN no Contiki](https://img.youtube.com/vi/5qfoOCtIbEg/hqdefault.jpg)](https://youtube.com/watch?v=5qfoOCtIbEg)
    
       - Criar um novo mote *Border Router*. <br/>
-      `` sky Mote >> contiki/example/ipv6/rpl-border-router/border-router.c```
+      ```sky Mote >> contiki/example/ipv6/rpl-border-router/border-router.c```
 
       - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
          ```git clone https://github.com/aignacio/mqtt-sn-contiki.c```
