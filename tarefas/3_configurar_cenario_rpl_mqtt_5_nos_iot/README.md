@@ -32,9 +32,11 @@
 
       - Renomear de `mqtt-sn-contiki_example` para `mqtt-sn`.
 
-      - Criar um novo mote do tipo *Publisher* -  sky Mote* - `contiki/mqtt-sn-contiki/main_core.c`.
+      - Criar um novo mote do tipo *Publisher* -  *sky Mote*:
+        -  `contiki/mqtt-sn-contiki/main_core.c`.
 
-      - Criar um novo mote do tipo *Subscriber* -  sky Mote* - `contiki/mqtt-sn-contiki/main_core.c`.
+      - Criar um novo mote do tipo *Subscriber* -  *sky Mote*:
+        -  `contiki/mqtt-sn-contiki/main_core.c`.
 
       - Clicar com o botão direito no *Border Router* - *Motel Tool* - *Serial Socket (Server)*
 
