@@ -47,19 +47,19 @@
 
         - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - sudo ./broker_mqtts config.mqtt`.
 
-      - Rodar a Simulação.
-         - Ao tentar rodar o seguinte erro ocorria:         
-         <br/>
-         
-         ![Imagem Erro de saída da execução](../../img/error/error_output_compile_run.png)
+   * [ ] Rodar a Simulação.
+      - Ao tentar rodar o seguinte erro ocorria:         
+      <br/>
+      
+      ![Imagem Erro de saída da execução](../../img/error/error_output_compile_run.png)
 
-         <br/>
-         
-         Devido a uma modificação realizada no arquivo main_core.c para teste de debug este erro ocorria. Então a linha (`debug_os(broker_address);`) foi devidamente comentada e o erro foi sanado.
-         
-         <br/>
-         
-         ![Commented line error output debug](../../img/error/comment_error_line.png)
+      <br/>
+      
+      Devido a uma modificação realizada no arquivo main_core.c para teste de debug este erro ocorria. Então a linha (`debug_os(broker_address);`) foi devidamente comentada e o erro foi sanado.
+      
+      <br/>
+      
+      ![Commented line error output debug](../../img/error/comment_error_line.png)
 
 
    * Informativos da execução do presente tutorial.
