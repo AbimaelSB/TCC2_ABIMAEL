@@ -47,7 +47,7 @@
 
         - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - sudo ./broker_mqtts config.mqtt`.
 
-   * [ ] Rodar a Simulação.
+   * [ ] Rodar a Simulação.      
       - Ao tentar rodar o seguinte erro ocorria:         
       <br/>
       
@@ -60,6 +60,8 @@
       <br/>
       
       ![Commented line error output debug](../../img/error/comment_error_line.png)
+
+      ![Imagem do teste rodando](../../img/cenario-01-mqtt.png)
 
 
    * Informativos da execução do presente tutorial.
