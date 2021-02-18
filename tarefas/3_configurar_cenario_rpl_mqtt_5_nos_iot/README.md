@@ -48,21 +48,15 @@
         - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - sudo ./broker_mqtts config.mqtt`.
 
    * [ ] Rodar a Simulação.      
-      - Ao tentar rodar o seguinte erro ocorria:         
-      <br/>
+      - Ao tentar rodar o seguinte erro ocorria:               
       
-      ![Imagem Erro de saída da execução](../../img/error/error_output_compile_run.png)
-
-      <br/>
+      ![Imagem Erro de saída da execução](../../img/error/error_output_compile_run.png)      
       
       Devido a uma modificação realizada no arquivo main_core.c para teste de debug este erro ocorria. Então a linha (`debug_os(broker_address);`) foi devidamente comentada e o erro foi sanado.
-      
-      <br/>
-      
+              
       ![Commented line error output debug](../../img/error/comment_error_line.png)
 
       ![Imagem do teste rodando](../../img/cenario-01-mqtt.png)
-
 
    * Informativos da execução do presente tutorial.
 
@@ -96,10 +90,13 @@
 
          /usr/lib/jvm/java-8-openjdk-amd64
          ```
+
       - Ao tentar utilizar os nós do tipo sky mote, ocorre um erro.
       - Cenário construído com os nós sky, porém a troca das mensagens não passa pelo Broker.
       - Ainda não identificado o motivo dos nós no contiki não publicarem/increverem nos topicos.
 
-      Obs: Tópicos serão melhor detalhados, com prints.
-
-<div align="center"><button><a href="../2_configurar_cenario_com_um_no_rpl/1_graficos_gerados/README.md"><< Anterior</a></button></div>
+<div align="center">
+   <button>
+      <a href="../2_configurar_cenario_com_um_no_rpl/1_graficos_gerados/README.md"><< Anterior</a>
+   <button>
+</div>
