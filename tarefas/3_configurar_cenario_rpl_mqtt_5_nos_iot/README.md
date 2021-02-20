@@ -28,7 +28,9 @@
   - [ ] Configurando o cenário proposto.
 
     - Criar um novo mote _Border Router_. <br/>
-      `sky Mote >> contiki/example/ipv6/rpl-border-router/border-router.c`
+      `Z1 Mote >> contiki/example/ipv6/rpl-border-router/border-router.c`
+
+      ![Criando Z1 Mote Border Router](../../img/cenario-01-rpl-mqtt/print07.png)
 
     - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
       `git clone https://github.com/aignacio/mqtt-sn-contiki.c`
