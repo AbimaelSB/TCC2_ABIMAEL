@@ -29,13 +29,18 @@
 
     - Criar um novo mote _Border Router_. <br/>
       <!--`Z1 Mote >> contiki/example/ipv6/rpl-border-router/border-router.c` -->
-      ```Motes -> Add Motes -> Create new mote type -> Z1 mote```
 
-      ![Criando Z1 Mote Border Router](../../img/cenario-01-rpl-mqtt/print07.png)
+      - `Motes -> Add Motes -> Create new mote type -> Z1 mote`.
+        ![Criando Z1 Mote Border Router](../../img/cenario-01-rpl-mqtt/print07.png)
 
-      ``` Compilando mote Z1 border router```
-      
-      ![Compilando no RPL Border Router](../../img/cenario-01-rpl-mqtt/print11.png)
+      - `Inserindo a descrição que é um nó do tipo z1 mote e que será o border router`.
+        ![Inserindo descrição do tipo do mote](../../img/cenario-01-rpl-mqtt/print9.png)
+
+      - `Pelo botão *Browser* foi selecionado o rpl-border-router.c`
+        ![Compilando no RPL Border Router](../../img/cenario-01-rpl-mqtt/print10.png)
+
+      - `Compilando o código`
+        ![Compilando no RPL Border Router](../../img/cenario-01-rpl-mqtt/print11.png)
 
     - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
       `git clone https://github.com/aignacio/mqtt-sn-contiki.c`
