@@ -47,8 +47,8 @@
 
         ![Compilando nó RPL Border Router](../../img/cenario-01-rpl-mqtt/print11.png)
       
-      - Para a criação de fato do nó RPL clique em  ***Create***.
-        ![Criando nó RPL Border Router](../../img/cenario-01-rpl-mqtt/print11.png)
+      - Após o termino da compilação, para a criação de fato do nó RPL clique em  ***Create***.
+        ![Criando nó RPL Border Router](../../img/cenario-01-rpl-mqtt/print14.png)
 
     - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
       `git clone https://github.com/aignacio/mqtt-sn-contiki.c`
