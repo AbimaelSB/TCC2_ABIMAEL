@@ -47,8 +47,19 @@
 
         ![Compilando nó RPL Border Router](../../img/cenario-01-rpl-mqtt/print11.png)
       
-      - Após o termino da compilação, para a criação de fato do nó RPL clique em  ***Create***.
+      - Após o termino da compilação, para continuar o processo de criação do nó RPL clique em  ***Create***.
+      
         ![Criando nó RPL Border Router](../../img/cenario-01-rpl-mqtt/print14.png)
+
+      - Informando quantos nós RPL serão criados (*Number of new motes*). Nesse caso o valor não será modificado pois necessitamos de apenas um nó RPL para este cenário. Ao final clique em ***Add motes*** adicionando realmente o nó RPL ao cenário.
+      
+        ![Informando o número de nós a serem criados](../../img/cenario-01-rpl-mqtt/print12.png)
+      
+      - Nó RPL criado:
+            
+        ![Nó RPL adicionado ao cenário](../../img/cenario-01-rpl-mqtt/print13.png)
+
+        
 
     - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
       `git clone https://github.com/aignacio/mqtt-sn-contiki.c`
