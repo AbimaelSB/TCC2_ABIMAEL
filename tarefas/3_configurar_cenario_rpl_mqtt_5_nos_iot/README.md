@@ -62,6 +62,27 @@
    * Informativos da execução do presente tutorial.
 
       - Resolvido como declarar e exportar a variavel $JAVA_HOME.
+
+         ```bash
+         $ sudo update-alternatives --config java.                  
+         ```
+
+         ```bash
+         $ sudo vi /etc/environment
+         ```
+
+         ```bash
+         JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+         ```
+
+         ```bash
+         $ source /etc/environment
+         ```
+         ```bash
+         $ echo $JAVA_HOME
+
+         /usr/lib/jvm/java-8-openjdk-amd64
+         ```
       - Ao tentar utilizar os nós do tipo Sky mote, ocorre um erro.
       - Cenário construido com os nós Z1, porém a troca das mensagens não passa pelo Broker.
       - Ainda não identificado o motivo dos nós no contiki não publicarem/increverem nos topicos.
