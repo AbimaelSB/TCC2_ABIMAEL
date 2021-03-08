@@ -84,6 +84,8 @@
          ```bash
          $ source /etc/environment
          ```
+
+         A partir disso a variável JAVA_HOME já deve retornar o path que foi configurado:
          ```bash
          $ echo $JAVA_HOME
 
