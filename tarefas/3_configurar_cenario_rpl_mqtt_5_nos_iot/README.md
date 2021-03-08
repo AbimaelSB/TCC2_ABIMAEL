@@ -51,6 +51,7 @@
       - Resolvido como declarar e exportar a variavel $JAVA_HOME.
       - Ao tentar utilizar os nós do tipo Sky mote, ocorre um erro.
       - Cenário construido com os nós Z1, porém a troca das mensagens não passa pelo Broker.
+      - Ainda não identificado o motivo dos nós no contiki não publicarem/increverem nos topicos.
 
       Obs: Tópicos serão melhor detalhados, com prints.
 
