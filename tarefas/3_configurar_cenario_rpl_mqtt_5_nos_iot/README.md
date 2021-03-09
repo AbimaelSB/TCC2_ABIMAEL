@@ -25,12 +25,10 @@
       [![Vídeo Tutorial instalação do protocolo MQTT-SN no Contiki](https://img.youtube.com/vi/5qfoOCtIbEg/hqdefault.jpg)](https://youtube.com/watch?v=5qfoOCtIbEg)
    
       - Criar um novo mote *Border Router*. <br/>
-      ```yaml
-         Z1 Mote >> contiki/example/ipv6/rpl-border-router/border-router.c
-      ```
+      ```Z1 Mote >> contiki/example/ipv6/rpl-border-router/border-router.c```
 
       - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
-      ```git clone https://github.com/aignacio/mqtt-sn-contiki.c```
+         ```git clone https://github.com/aignacio/mqtt-sn-contiki.c```
 
       - Renomear de `mqtt-sn-contiki_example` para `mqtt-sn`.
 
@@ -94,7 +92,7 @@
          /usr/lib/jvm/java-8-openjdk-amd64
          ```
       - Ao tentar utilizar os nós do tipo Z1 mote, ocorre um erro.
-      - Cenário construido com os nós Z1, porém a troca das mensagens não passa pelo Broker.
+      - Cenário construído com os nós Z1, porém a troca das mensagens não passa pelo Broker.
       - Ainda não identificado o motivo dos nós no contiki não publicarem/increverem nos topicos.
 
       Obs: Tópicos serão melhor detalhados, com prints.
