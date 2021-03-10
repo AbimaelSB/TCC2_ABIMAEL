@@ -38,11 +38,11 @@
 
       - Clicar com o botão direito no *Border Router* - *Motel Tool* - *Serial Socket (Server)*
 
-      - `cd contiki/examples/ipv6/rpl-border-router - make connect-router-cooja`      
+        - `cd contiki/examples/ipv6/rpl-border-router - make connect-router-cooja`.
 
-      - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - make`
+        - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - make`.
 
-      - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - sudo ./broker_mqtts config.mqtt`
+        - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - sudo ./broker_mqtts config.mqtt`.
 
       - Rodar a Simulação.
          - Ao tentar rodar o seguinte erro ocorria:         
