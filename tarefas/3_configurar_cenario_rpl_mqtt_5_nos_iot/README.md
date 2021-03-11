@@ -20,15 +20,15 @@
 
 ## Tarefa :clipboard:
 
-- [x] Configurar cenário com um nó RPL, protocolo de aplicação MQTT e cinco nós IoT.
+- [ ] Configurar cenário com um nó RPL, protocolo de aplicação MQTT e cinco nós IoT.
 
-  - [x] Baixando o protocolo de aplicação MQTT-SN na pasta do Contiki e executando o cenário teste. <br/> Tutorial utilizado: <https://www.youtube.com/watch?v=5qfoOCtIbEg>
+  - :sparks: [x] Baixando o protocolo de aplicação MQTT-SN na pasta do Contiki e executando o cenário teste. :sparkles: <br/> Tutorial utilizado: <https://www.youtube.com/watch?v=5qfoOCtIbEg>
+
         [![Vídeo Tutorial instalação do protocolo MQTT-SN no Contiki](https://img.youtube.com/vi/5qfoOCtIbEg/hqdefault.jpg)](https://youtube.com/watch?v=5qfoOCtIbEg)
 
   - [ ] Configurando o cenário proposto.
 
-    - Criar um novo mote _Border Router_. <br/>
-      <!--`Z1 Mote >> contiki/example/ipv6/rpl-border-router/border-router.c` -->
+    - [x] Criar um novo mote _Border Router_. <br/>      
 
       - `Motes -> Add Motes -> Create new mote type -> Z1 mote`.
           
@@ -55,7 +55,7 @@
       
         ![Informando o número de nós a serem criados](../../img/cenario-01-rpl-mqtt/print12.png)
       
-      - Nó RPL criado:
+      - :sparks: Nó ***RPL Boder Router*** criado!: :sparks:
             
         ![Nó RPL adicionado ao cenário](../../img/cenario-01-rpl-mqtt/print13.png)
 
