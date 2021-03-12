@@ -62,22 +62,25 @@
    * Informativos da execução do presente tutorial.
 
       - Resolvido como declarar e exportar a variavel $JAVA_HOME.         
+
          O caminho depende do seu sistema operacional, você pode verificar o caminho completo usando o comando:
 
          ```bash
          $ sudo update-alternatives --config java.                  
          ```
+         Uma forma de configurar a variável de ambiente JAVA_HOME é por meio do 
+         arquivo `/etc/environment`. Abra o arquivo:
 
          ```bash
-         $ sudo vi /etc/environment
+         $ sudo nano /etc/environment
          ```
-
+         Insira o comando abaixo atribuindo o devido caminho do Java instalado na máquina:
          ```bash
          JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
          ```
 
          Em seguida utilize o comando abaixo para recarregar as variáveis:
-         
+
          ```bash
          $ source /etc/environment
          ```
