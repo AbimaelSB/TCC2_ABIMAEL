@@ -22,12 +22,12 @@
 
 - [ ] Configurar cenário com um nó RPL, protocolo de aplicação MQTT e cinco nós IoT.
 
-  - :sparkles: [x] Baixando o protocolo de aplicação MQTT-SN na pasta do Contiki e executando o cenário teste. :sparkles: <br/> Tutorial utilizado: <https://www.youtube.com/watch?v=5qfoOCtIbEg>
+  - [x] :sparkles: Baixando o protocolo de aplicação MQTT-SN na pasta do Contiki e executando o cenário teste. :sparkles: <br/> Tutorial utilizado: <https://www.youtube.com/watch?v=5qfoOCtIbEg>
         [![Vídeo Tutorial instalação do protocolo MQTT-SN no Contiki](https://img.youtube.com/vi/5qfoOCtIbEg/hqdefault.jpg)](https://youtube.com/watch?v=5qfoOCtIbEg)
 
   - [ ] Configurando o cenário proposto.
 
-    - :sparkles: [x] Criar um novo mote _Border Router_. :sparkles: <br/>      
+    - [x] :sparkles: Criar um novo mote _Border Router_. :sparkles: <br/>      
 
       - `Motes -> Add Motes -> Create new mote type -> Z1 mote`.
           
