@@ -27,38 +27,36 @@
 
   - [ ] Configurando o cenário proposto.
 
-    - [x] :sparkles: Criar um novo mote _Border Router_. :sparkles: <br/>      
+    - [x] :sparkles: Criar um novo mote _Border Router_. :sparkles: <br/>
 
       - `Motes -> Add Motes -> Create new mote type -> Z1 mote`.
-          
+
         ![Criando Z1 Mote Border Router](../../img/cenario-01-rpl-mqtt/print07.png)
 
       - `Inserindo a descrição que é um nó do tipo z1 mote e que será o border router`:
-      
+
         ![Inserindo descrição do tipo do mote](../../img/cenario-01-rpl-mqtt/print9.png)
 
       - `Pelo botão Browser foi selecionado o arquivo border-router.c`.
-         O Caminho do arquivo border-router.c é: `contiki/examples/ipv6/rpl-border-router/border-router.c`. Clique no arquivo `border-router.c` e em seguida clique em *Open*:
-      
+        O Caminho do arquivo border-router.c é: `contiki/examples/ipv6/rpl-border-router/border-router.c`. Clique no arquivo `border-router.c` e em seguida clique em _Open_:
+
         ![Compilando nó RPL Border Router](../../img/cenario-01-rpl-mqtt/print10.png)
 
-      - Clique no botão ***Compile*** para compilar o código do arquivo ***border-router.c***:
+      - Clique no botão **_Compile_** para compilar o código do arquivo **_border-router.c_**:
 
         ![Compilando nó RPL Border Router](../../img/cenario-01-rpl-mqtt/print11.png)
-      
-      - Após o termino da compilação, para continuar o processo de criação do nó RPL clique em  ***Create***.
-      
+
+      - Após o termino da compilação, para continuar o processo de criação do nó RPL clique em **_Create_**.
+
         ![Criando nó RPL Border Router](../../img/cenario-01-rpl-mqtt/print14.png)
 
-      - Informando quantos nós RPL serão criados (*Number of new motes*). Nesse caso o valor não será modificado pois necessitamos de apenas um nó RPL para este cenário. Ao final clique em ***Add motes*** adicionando realmente o nó RPL ao cenário.
-      
-        ![Informando o número de nós a serem criados](../../img/cenario-01-rpl-mqtt/print12.png)
-      
-      -  Nó ***RPL Boder Router*** criado!:
-            
-        ![Nó RPL adicionado ao cenário](../../img/cenario-01-rpl-mqtt/print13.png)
+      - Informando quantos nós RPL serão criados (_Number of new motes_). Nesse caso o valor não será modificado pois necessitamos de apenas um nó RPL para este cenário. Ao final clique em **_Add motes_** adicionando realmente o nó RPL ao cenário.
 
-        
+        ![Informando o número de nós a serem criados](../../img/cenario-01-rpl-mqtt/print12.png)
+
+      - Nó **_RPL Boder Router_** criado!:
+
+        ![Nó RPL adicionado ao cenário](../../img/cenario-01-rpl-mqtt/print13.png)
 
     - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
       `git clone https://github.com/aignacio/mqtt-sn-contiki.c`
