@@ -58,26 +58,32 @@
 
         ![Nó RPL adicionado ao cenário](../../img/cenario-01-rpl-mqtt/print13.png)
 
-    - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
-      `git clone https://github.com/aignacio/mqtt-sn-contiki.c`
+  - [ ] Criar cinco nós MQTT-SN.
 
-    - Renomear de `mqtt-sn-contiki_example` para `mqtt-sn`.
+    - `Motes -> Add Motes -> Create new mote type -> Z1 mote`.
 
-    - Criar um novo mote do tipo _Publisher_ - _sky Mote_:
+      ![Criando 5 Motes MQTT](../../img/cenario-01-rpl-mqtt/print07.png)
 
-      - `contiki/mqtt-sn-contiki/main_core.c`.
+  - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
+    `git clone https://github.com/aignacio/mqtt-sn-contiki.c`
 
-    - Criar um novo mote do tipo _Subscriber_ - _sky Mote_:
+  - Renomear de `mqtt-sn-contiki_example` para `mqtt-sn`.
 
-      - `contiki/mqtt-sn-contiki/main_core.c`.
+  - Criar um novo mote do tipo _Publisher_ - _sky Mote_:
 
-    - Clicar com o botão direito no _Border Router_ - _Motel Tool_ - _Serial Socket (Server)_
+    - `contiki/mqtt-sn-contiki/main_core.c`.
 
-      - `cd contiki/examples/ipv6/rpl-border-router - make connect-router-cooja`.
+  - Criar um novo mote do tipo _Subscriber_ - _sky Mote_:
 
-      - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - make`.
+    - `contiki/mqtt-sn-contiki/main_core.c`.
 
-      - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - sudo ./broker_mqtts config.mqtt`.
+  - Clicar com o botão direito no _Border Router_ - _Motel Tool_ - _Serial Socket (Server)_
+
+    - `cd contiki/examples/ipv6/rpl-border-router - make connect-router-cooja`.
+
+    - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - make`.
+
+    - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - sudo ./broker_mqtts config.mqtt`.
 
   - [ ] Rodar a Simulação.
 
