@@ -37,7 +37,7 @@
 
         ![Inserindo descrição do tipo do mote](../../img/cenario-01-rpl-mqtt/print9.png)
 
-      - Pelo botão Browser foi selecionado o arquivo border-router.c.
+      - Pelo botão *Browser* foi selecionado o arquivo border-router.c.
         O Caminho do arquivo border-router.c é: `contiki/examples/ipv6/rpl-border-router/border-router.c`. Clique no arquivo `border-router.c` e em seguida clique em _Open_:
 
         ![Compilando nó RPL Border Router](../../img/cenario-01-rpl-mqtt/print10.png)
@@ -46,7 +46,7 @@
 
         ![Compilando nó RPL Border Router](../../img/cenario-01-rpl-mqtt/print11.png)
 
-      - Após o termino da compilação, para continuar o processo de criação do nó RPL clique em **_Create_**.
+      - Após o término da compilação, para continuar o processo de criação do nó RPL clique em **_Create_**.
 
         ![Criando nó RPL Border Router](../../img/cenario-01-rpl-mqtt/print14.png)
 
