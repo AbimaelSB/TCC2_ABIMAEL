@@ -62,7 +62,10 @@
 
     - `Motes -> Add Motes -> Create new mote type -> Z1 mote`.
 
-      ![Criando 5 Motes MQTT](../../img/cenario-01-rpl-mqtt/print07.png)
+      ![Criando Mote MQTT](../../img/cenario-01-rpl-mqtt/print07.png)
+
+    - Mostes MQTT-SN criados:
+      ![Motes MQTT-SN Criados](../../img/cenario-01-rpl-mqtt/print15.png)
 
   - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
     `git clone https://github.com/aignacio/mqtt-sn-contiki.c`
