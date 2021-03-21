@@ -64,7 +64,7 @@
 
       ![Criando Mote MQTT](../../img/cenario-01-rpl-mqtt/print07.png)
 
-    - Mostes MQTT-SN criados:
+    - Motes MQTT-SN criados:
       ![Motes MQTT-SN Criados](../../img/cenario-01-rpl-mqtt/print15.png)
 
   - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
