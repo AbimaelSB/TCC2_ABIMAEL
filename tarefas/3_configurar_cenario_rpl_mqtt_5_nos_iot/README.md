@@ -63,6 +63,8 @@
     - `Motes -> Add Motes -> Create new mote type -> Z1 mote`.
 
       ![Criando Mote MQTT](../../img/cenario-01-rpl-mqtt/print07.png)
+    
+    - ![Descrição do tipo de Mote Z1 MQTT-SN](../../img/cenario-01-rpl-mqtt/print16.png)
 
     - Motes MQTT-SN criados:
       ![Motes MQTT-SN Criados](../../img/cenario-01-rpl-mqtt/print15.png)
