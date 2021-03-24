@@ -37,8 +37,8 @@
 
         ![Inserindo descrição do tipo do mote](../../img/cenario-01-rpl-mqtt/print9.png)
 
-      - Pelo botão *Browser* foi selecionado o arquivo `border-router.c`.
-        O Caminho do arquivo ***border-router.c*** é: `contiki/examples/ipv6/rpl-border-router/border-router.c`. Clique no arquivo `border-router.c` e em seguida clique em _Open_:
+      - Pelo botão _Browser_ foi selecionado o arquivo `border-router.c`.
+        O Caminho do arquivo **_border-router.c_** é: `contiki/examples/ipv6/rpl-border-router/border-router.c`. Clique no arquivo `border-router.c` e em seguida clique em _Open_:
 
         ![Compilando nó RPL Border Router](../../img/cenario-01-rpl-mqtt/print10.png)
 
@@ -63,8 +63,12 @@
     - `Motes -> Add Motes -> Create new mote type -> Z1 mote`.
 
       ![Criando Mote MQTT](../../img/cenario-01-rpl-mqtt/print07.png)
-    
-    - ![Descrição do tipo de Mote Z1 MQTT-SN](../../img/cenario-01-rpl-mqtt/print16.png)
+
+    - Inserindo a descrição que é um nó MQTT-SN.
+      ![Descrição do tipo de Mote Z1 MQTT-SN](../../img/cenario-01-rpl-mqtt/print16.png)
+
+    - Pelo botão _Browser_ foi selecionado o arquivo `main_core.c`.
+        O Caminho do arquivo **_border-router.c_** é: `contiki/mqtt-sn-contiki/main_core.c`. Clique no arquivo `main_core.c` e em seguida clique em _Open_: 
 
     - Motes MQTT-SN criados:
       ![Motes MQTT-SN Criados](../../img/cenario-01-rpl-mqtt/print15.png)
