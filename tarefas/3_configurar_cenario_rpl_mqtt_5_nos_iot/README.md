@@ -70,6 +70,8 @@
     - Pelo botão _Browser_ foi selecionado o arquivo `main_core.c`.
         O Caminho do arquivo **_border-router.c_** é: `contiki/mqtt-sn-contiki/main_core.c`. Clique no arquivo `main_core.c` e em seguida clique em _Open_: 
 
+        ![Selecionando o arquivo main_core.c](../../img/cenario-01-rpl-mqtt/print17.png)
+
     - Motes MQTT-SN criados:
       ![Motes MQTT-SN Criados](../../img/cenario-01-rpl-mqtt/print15.png)
 
