@@ -68,7 +68,7 @@
       ![Descrição do tipo de Mote Z1 MQTT-SN](../../img/cenario-01-rpl-mqtt/print16.png)
 
     - Pelo botão _Browser_ foi selecionado o arquivo `main_core.c`.
-        O Caminho do arquivo **_border-router.c_** é: `contiki/mqtt-sn-contiki/main_core.c`. Clique no arquivo `main_core.c` e em seguida clique em _Open_: 
+        O Caminho do arquivo **_main_core.c_** é: `contiki/mqtt-sn-contiki/main_core.c`. Clique no arquivo `main_core.c` e em seguida clique em _Open_: 
 
         ![Selecionando o arquivo main_core.c](../../img/cenario-01-rpl-mqtt/print17.png)
 
