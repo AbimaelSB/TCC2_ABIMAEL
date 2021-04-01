@@ -184,6 +184,6 @@
 
 
 <div align="center">
-<button><a href="../../README.md"><< Anterior<button> | 
+<button><a href="../README.md"><< Anterior<button> | 
 <button><a href="../../3_configurar_cenario_rpl_mqtt_5_nos_iot/README.md">Próximo >></a></button>
 </div>
