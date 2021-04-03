@@ -6,7 +6,7 @@
 ## Análise de Desempenho dos Protocolos CoAP e MQTT em Redes IoT
 
 - <div style="text-align: justify"> Trabalho de Conclusão de Curso Intitulado: Análise de Desempenho dos Protocolos CoAP e MQTT em Redes IoT. Apresentado ao Curso de Tecnologia em Redes de Computadores da Universidade Federal  do  Ceará,  como  requisito  parcial  à obtenção do grau de Tecnólogo em Redes de Computadores. 
-</div>
+  </div>
 
 ## Índice
 
@@ -15,85 +15,94 @@
    2. [Configurar um cenário teste com um nó RPL](../2_configurar_cenario_com_um_no_rpl/README.md)
       1. [Gráficos gerados](../2_configurar_cenario_com_um_no_rpl//1_graficos_gerados/README.md)
    3. Configurar cenário com um nó RPL, protocolo de aplicação MQTT e cinco nós IoT
-   
+
 <a name="listaTarefas"></a>
+
 ## Tarefa :clipboard:
 
 - [x] Configurar cenário com um nó RPL, protocolo de aplicação MQTT e cinco nós IoT.
 
-  * [x] Baixando o protocolo de aplicação MQTT-SN na pasta do Contiki e executando o cenário teste. <br/> Tutorial utilizado:     <https://www.youtube.com/watch?v=5qfoOCtIbEg>
-      [![Vídeo Tutorial instalação do protocolo MQTT-SN no Contiki](https://img.youtube.com/vi/5qfoOCtIbEg/hqdefault.jpg)](https://youtube.com/watch?v=5qfoOCtIbEg)
-   
-   * [ ] Configurando o cenário proposto.
-      - Criar um novo mote *Border Router*. <br/>
-      ```sky Mote >> contiki/example/ipv6/rpl-border-router/border-router.c```
+  - [x] Baixando o protocolo de aplicação MQTT-SN na pasta do Contiki e executando o cenário teste. <br/> Tutorial utilizado: <https://www.youtube.com/watch?v=5qfoOCtIbEg>
+        [![Vídeo Tutorial instalação do protocolo MQTT-SN no Contiki](https://img.youtube.com/vi/5qfoOCtIbEg/hqdefault.jpg)](https://youtube.com/watch?v=5qfoOCtIbEg)
 
-      - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
-         ```git clone https://github.com/aignacio/mqtt-sn-contiki.c```
+  - [ ] Configurando o cenário proposto.
 
-      - Renomear de `mqtt-sn-contiki_example` para `mqtt-sn`.
+    - Criar um novo mote _Border Router_. <br/>
+      `sky Mote >> contiki/example/ipv6/rpl-border-router/border-router.c`
 
-      - Criar um novo mote do tipo *Publisher* -  *sky Mote*:
-        -  `contiki/mqtt-sn-contiki/main_core.c`.
+    - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
+      `git clone https://github.com/aignacio/mqtt-sn-contiki.c`
 
-      - Criar um novo mote do tipo *Subscriber* -  *sky Mote*:
-        -  `contiki/mqtt-sn-contiki/main_core.c`.
+    - Renomear de `mqtt-sn-contiki_example` para `mqtt-sn`.
 
-      - Clicar com o botão direito no *Border Router* - *Motel Tool* - *Serial Socket (Server)*
+    - Criar um novo mote do tipo _Publisher_ - _sky Mote_:
 
-        - `cd contiki/examples/ipv6/rpl-border-router - make connect-router-cooja`.
+      - `contiki/mqtt-sn-contiki/main_core.c`.
 
-        - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - make`.
+    - Criar um novo mote do tipo _Subscriber_ - _sky Mote_:
 
-        - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - sudo ./broker_mqtts config.mqtt`.
+      - `contiki/mqtt-sn-contiki/main_core.c`.
 
-   * [ ] Rodar a Simulação.      
-      - Ao tentar rodar o seguinte erro ocorria:               
-      
-      ![Imagem Erro de saída da execução](../../img/error/error_output_compile_run.png)      
-      
-      Devido a uma modificação realizada no arquivo main_core.c para teste de debug este erro ocorria. Então a linha (`debug_os(broker_address);`) foi devidamente comentada e o erro foi sanado.
-              
-      ![Commented line error output debug](../../img/error/comment_error_line.png)
+    - Clicar com o botão direito no _Border Router_ - _Motel Tool_ - _Serial Socket (Server)_
 
-      ![Imagem do teste rodando](../../img/cenario-01-mqtt.png)
+      - `cd contiki/examples/ipv6/rpl-border-router - make connect-router-cooja`.
 
-   * Informativos da execução do presente tutorial.
+      - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - make`.
 
-      - Resolvido como declarar e exportar a variavel $JAVA_HOME.         
+      - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - sudo ./broker_mqtts config.mqtt`.
 
-         O caminho depende do seu sistema operacional, você pode verificar o caminho completo usando o comando:
+  - [ ] Rodar a Simulação.
 
-         ```bash
-         $ sudo update-alternatives --config java.                  
-         ```
-         Uma forma de configurar a variável de ambiente JAVA_HOME é por meio do 
-         arquivo `/etc/environment`. Abra o arquivo:
+    - Ao tentar rodar o seguinte erro ocorria:
 
-         ```bash
-         $ sudo nano /etc/environment
-         ```
-         Insira o comando abaixo atribuindo o devido caminho do Java instalado na máquina:
-         ```bash
-         JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
-         ```
+    ![Imagem Erro de saída da execução](../../img/error/error_output_compile_run.png)
 
-         Em seguida utilize o comando abaixo para recarregar as variáveis:
+    Devido a uma modificação realizada no arquivo main_core.c para teste de debug este erro ocorria. Então a linha (`debug_os(broker_address);`) foi devidamente comentada e o erro foi sanado.
 
-         ```bash
-         $ source /etc/environment
-         ```
+    ![Commented line error output debug](../../img/error/comment_error_line.png)
 
-         A partir disso a variável JAVA_HOME já deve retornar o path que foi configurado:
-         ```bash
-         $ echo $JAVA_HOME
+    ![Imagem do teste rodando](../../img/cenario-01-mqtt.png)
 
-         /usr/lib/jvm/java-8-openjdk-amd64
-         ```
+  - Informativos da execução do presente tutorial.
 
-      - Ao tentar utilizar os nós do tipo sky mote, ocorre um erro.
-      - Cenário construído com os nós sky, porém a troca das mensagens não passa pelo Broker.
-      - Ainda não identificado o motivo dos nós no contiki não publicarem/increverem nos topicos.
+    - Resolvido como declarar e exportar a variavel $JAVA_HOME.
+
+      O caminho depende do seu sistema operacional, você pode verificar o caminho completo usando o comando:
+
+      ```bash
+      $ sudo update-alternatives --config java.
+      ```
+
+      Uma forma de configurar a variável de ambiente JAVA_HOME é por meio do
+      arquivo `/etc/environment`. Abra o arquivo:
+
+      ```bash
+      $ sudo nano /etc/environment
+      ```
+
+      Insira o comando abaixo atribuindo o devido caminho do Java instalado na máquina:
+
+      ```bash
+      JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+      ```
+
+      Em seguida utilize o comando abaixo para recarregar as variáveis:
+
+      ```bash
+      $ source /etc/environment
+      ```
+
+      A partir disso a variável JAVA_HOME já deve retornar o path que foi configurado:
+
+      ```bash
+      $ echo $JAVA_HOME
+
+      /usr/lib/jvm/java-8-openjdk-amd64
+      ```
+
+    - Ao tentar utilizar os nós do tipo sky mote, ocorre um erro.
+    - Cenário construído com os nós sky, porém a troca das mensagens não passa pelo Broker.
+    - Ainda não identificado o motivo dos nós no contiki não publicarem/increverem nos topicos.
 
 <div align="center">
    <button>
