@@ -72,6 +72,14 @@
 
         ![Selecionando o arquivo main_core.c](../../img/cenario-01-rpl-mqtt/print17.png)       
 
+    - Clique no botão **_Compile_** para compilar o código do arquivo **_main_core.c_**:
+
+        ![Compilando nó MQTT-SN](../../img/cenario-01-rpl-mqtt/print18.png)
+
+    - Após o término da compilação, para continuar o processo de criação do nó MQTT-SN clique em **_Create_**.
+
+        ![Criando nó MQTT-SN](../../img/cenario-01-rpl-mqtt/print19.png)
+
     - Motes MQTT-SN criados:
       ![Motes MQTT-SN Criados](../../img/cenario-01-rpl-mqtt/print15.png)
 
