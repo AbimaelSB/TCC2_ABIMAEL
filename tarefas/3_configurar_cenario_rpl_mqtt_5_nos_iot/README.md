@@ -80,6 +80,11 @@
 
         ![Criando nó MQTT-SN](../../img/cenario-01-rpl-mqtt/print19.png)
 
+    - Informando quantos nós RPL serão criados (_Number of new motes_). Para este cenário serão utilizados cinco nós MQTT-SN. Ao final clique em **_Add motes_** adicionando realmente os nós MQTT-SN ao cenário.
+
+      ![Nós MQTT-SN adicionados ao cenário](../../img/cenario-01-rpl-mqtt/print20.png)
+
+
     - Motes MQTT-SN criados:
       ![Motes MQTT-SN Criados](../../img/cenario-01-rpl-mqtt/print15.png)
 
