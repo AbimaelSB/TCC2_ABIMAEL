@@ -58,7 +58,7 @@
 
         ![Nó RPL adicionado ao cenário](../../img/cenario-01-rpl-mqtt/print13.png)
 
-  - [ ] Criar cinco nós MQTT-SN.
+  - [x] :sparkles: Criar cinco nós MQTT-SN. :sparkles: <br/>
 
     - `Motes -> Add Motes -> Create new mote type -> Z1 mote`.
 
