@@ -58,35 +58,34 @@
 
         ![Nó RPL adicionado ao cenário](../../img/cenario-01-rpl-mqtt/print13.png)
 
-  - [x] :sparkles: Criar cinco nós MQTT-SN. :sparkles: <br/>
+    - [x] :sparkles: Criar cinco nós MQTT-SN. :sparkles: <br/>
 
-    - `Motes -> Add Motes -> Create new mote type -> Z1 mote`.
+      - `Motes -> Add Motes -> Create new mote type -> Z1 mote`.
 
-      ![Criando Mote MQTT](../../img/cenario-01-rpl-mqtt/print07.png)
+        ![Criando Mote MQTT](../../img/cenario-01-rpl-mqtt/print07.png)
 
-    - Inserindo a descrição que é um nó MQTT-SN.
-      ![Descrição do tipo de Mote Z1 MQTT-SN](../../img/cenario-01-rpl-mqtt/print16.png)
+      - Inserindo a descrição que é um nó MQTT-SN.
+        ![Descrição do tipo de Mote Z1 MQTT-SN](../../img/cenario-01-rpl-mqtt/print16.png)
 
-    - Pelo botão _Browser_ foi selecionado o arquivo `main_core.c`.
-        O Caminho do arquivo **_main_core.c_** é: `contiki/mqtt-sn-contiki/main_core.c`. Clique no arquivo `main_core.c` e em seguida clique em _Open_: 
+      - Pelo botão _Browser_ foi selecionado o arquivo `main_core.c`.
+          O Caminho do arquivo **_main_core.c_** é: `contiki/mqtt-sn-contiki/main_core.c`. Clique no arquivo `main_core.c` e em seguida clique em _Open_: 
 
-        ![Selecionando o arquivo main_core.c](../../img/cenario-01-rpl-mqtt/print17.png)       
+          ![Selecionando o arquivo main_core.c](../../img/cenario-01-rpl-mqtt/print17.png)       
 
-    - Clique no botão **_Compile_** para compilar o código do arquivo **_main_core.c_**:
+      - Clique no botão **_Compile_** para compilar o código do arquivo **_main_core.c_**:
 
-        ![Compilando nó MQTT-SN](../../img/cenario-01-rpl-mqtt/print18.png)
+          ![Compilando nó MQTT-SN](../../img/cenario-01-rpl-mqtt/print18.png)
 
-    - Após o término da compilação, para continuar o processo de criação do nó MQTT-SN clique em **_Create_**.
+      - Após o término da compilação, para continuar o processo de criação do nó MQTT-SN clique em **_Create_**.
 
-        ![Criando nó MQTT-SN](../../img/cenario-01-rpl-mqtt/print19.png)
+          ![Criando nós MQTT-SN](../../img/cenario-01-rpl-mqtt/print19.png)
 
-    - Informando quantos nós RPL serão criados (_Number of new motes_). Para este cenário serão utilizados cinco nós MQTT-SN. Ao final clique em **_Add motes_** adicionando realmente os nós MQTT-SN ao cenário.
+      - Informando quantos nós RPL serão criados (_Number of new motes_). Para este cenário serão utilizados cinco nós MQTT-SN. Ao final clique em **_Add motes_** adicionando realmente os nós MQTT-SN ao cenário.
 
-      ![Nós MQTT-SN adicionados ao cenário](../../img/cenario-01-rpl-mqtt/print20.png)
+        ![Nós MQTT-SN adicionados ao cenário](../../img/cenario-01-rpl-mqtt/print20.png)
 
-
-    - Motes MQTT-SN criados:
-      ![Motes MQTT-SN Criados](../../img/cenario-01-rpl-mqtt/print15.png)
+      - Motes MQTT-SN criados:
+        ![Motes MQTT-SN Criados](../../img/cenario-01-rpl-mqtt/print15.png)
 
   - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
     `git clone https://github.com/aignacio/mqtt-sn-contiki.c`
