@@ -84,7 +84,7 @@
 
         ![Nós MQTT-SN adicionados ao cenário](../../img/cenario-01-rpl-mqtt/print20.png)
 
-      - Motes MQTT-SN criados:
+      - 5 Motes MQTT-SN criados:
         ![Motes MQTT-SN Criados](../../img/cenario-01-rpl-mqtt/print15.png)
 
   - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
