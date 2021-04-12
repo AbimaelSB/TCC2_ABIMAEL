@@ -25,6 +25,15 @@
   - [x] :sparkles: Baixando o protocolo de aplicação MQTT-SN na pasta do Contiki e executando o cenário teste. :sparkles: <br/> Tutorial utilizado: <https://www.youtube.com/watch?v=5qfoOCtIbEg>
         [![Vídeo Tutorial instalação do protocolo MQTT-SN no Contiki](https://img.youtube.com/vi/5qfoOCtIbEg/hqdefault.jpg)](https://youtube.com/watch?v=5qfoOCtIbEg)
 
+    - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
+      `cd contiki`
+      `git clone https://github.com/aignacio/mqtt-sn-contiki.c`     
+
+    - Renomear de `mqtt-sn-contiki_example` para `mqtt-sn-contiki`.
+      `mv mqtt-sn-contiki_example mqtt-sn-contiki`
+
+    - Os proxímos passos, criação dos nós RPL, MQTT-SN e as configuração necessárias para rodar o cenário teste, serão executados nos tópicos seguintes.
+    
   - [ ] Configurando o cenário proposto.
 
     - [x] :sparkles: Criar um novo mote _Border Router_. :sparkles: <br/>
@@ -87,26 +96,23 @@
       - 5 Motes MQTT-SN criados:
         ![Motes MQTT-SN Criados](../../img/cenario-01-rpl-mqtt/print15.png)
 
-  - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
-    `git clone https://github.com/aignacio/mqtt-sn-contiki.c`
+ 
+    - [] Configurando o cenário.
+      - Criar um novo mote do tipo _Publisher_ - _sky Mote_:
 
-  - Renomear de `mqtt-sn-contiki_example` para `mqtt-sn`.
+        - `contiki/mqtt-sn-contiki/main_core.c`.
 
-  - Criar um novo mote do tipo _Publisher_ - _sky Mote_:
+      - Criar um novo mote do tipo _Subscriber_ - _sky Mote_:
 
-    - `contiki/mqtt-sn-contiki/main_core.c`.
+        - `contiki/mqtt-sn-contiki/main_core.c`.
 
-  - Criar um novo mote do tipo _Subscriber_ - _sky Mote_:
+      - Clicar com o botão direito no _Border Router_ - _Motel Tool_ - _Serial Socket (Server)_
 
-    - `contiki/mqtt-sn-contiki/main_core.c`.
+        - `cd contiki/examples/ipv6/rpl-border-router - make connect-router-cooja`.
 
-  - Clicar com o botão direito no _Border Router_ - _Motel Tool_ - _Serial Socket (Server)_
+        - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - make`.
 
-    - `cd contiki/examples/ipv6/rpl-border-router - make connect-router-cooja`.
-
-    - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - make`.
-
-    - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - sudo ./broker_mqtts config.mqtt`.
+        - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - sudo ./broker_mqtts config.mqtt`.
 
   - [ ] Rodar a Simulação.
 
