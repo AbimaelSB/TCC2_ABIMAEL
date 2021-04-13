@@ -26,11 +26,11 @@
         [![Vídeo Tutorial instalação do protocolo MQTT-SN no Contiki](https://img.youtube.com/vi/5qfoOCtIbEg/hqdefault.jpg)](https://youtube.com/watch?v=5qfoOCtIbEg)
 
     - Navegar até o diretório do Contiki e clonar o mqtt-sn.c: <br/>
-      ```cd contiki```
-      ```git clone https://github.com/aignacio/mqtt-sn-contiki.c```     
+      - `cd contiki`
+      - `git clone https://github.com/aignacio/mqtt-sn-contiki.c`     
 
     - Renomear de `mqtt-sn-contiki_example` para `mqtt-sn-contiki`.
-      ```mv mqtt-sn-contiki_example mqtt-sn-contiki```
+      - `mv mqtt-sn-contiki_example mqtt-sn-contiki`
 
     - Os proxímos passos, criação dos nós RPL, MQTT-SN e as configuração necessárias para rodar o cenário teste, serão executados nos tópicos seguintes.
     
