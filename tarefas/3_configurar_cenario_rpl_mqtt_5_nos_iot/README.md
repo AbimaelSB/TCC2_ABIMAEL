@@ -42,7 +42,7 @@
 
         ![Criando Z1 Mote Border Router](../../img/cenario-01-rpl-mqtt/print07.png)
 
-      - Inserindo a descrição que é um nó do tipo z1 mote e que será o border router:
+      - Inserindo a descrição que é um nó do tipo Z1 mote e que será o border router:
 
         ![Inserindo descrição do tipo do mote](../../img/cenario-01-rpl-mqtt/print9.png)
 
@@ -97,15 +97,8 @@
         ![Motes MQTT-SN Criados](../../img/cenario-01-rpl-mqtt/print15.png)
 
  
-    - [] Configurando o cenário.
-      - Criar um novo mote do tipo _Publisher_ - _sky Mote_:
-
-        - `contiki/mqtt-sn-contiki/main_core.c`.
-
-      - Criar um novo mote do tipo _Subscriber_ - _sky Mote_:
-
-        - `contiki/mqtt-sn-contiki/main_core.c`.
-
+    - [ ] Configurando o cenário.
+     
       - Clicar com o botão direito no _Border Router_ - _Motel Tool_ - _Serial Socket (Server)_
 
         - `cd contiki/examples/ipv6/rpl-border-router - make connect-router-cooja`.
