@@ -109,7 +109,7 @@
 
   - [ ] Rodar a Simulação.
 
-    - Ao tentar rodar o seguinte erro ocorria:
+    do t- Ao tentar rodar o seguinte erro ocorria:
 
     ![Imagem Erro de saída da execução](../../img/error/error_output_compile_run.png)
 
@@ -117,45 +117,10 @@
 
     ![Commented line error output debug](../../img/error/comment_error_line.png)
 
-    ![Imagem do teste rodando](../../img/cenario-01-mqtt.png)
+    ![Imagem este rodando](../../img/cenario-01-mqtt.png)
 
   - Informativos da execução do presente tutorial.
-
-    - Resolvido como declarar e exportar a variavel $JAVA_HOME.
-
-      O caminho depende do seu sistema operacional, você pode verificar o caminho completo usando o comando:
-
-      ```bash
-      $ sudo update-alternatives --config java.
-      ```
-
-      Uma forma de configurar a variável de ambiente JAVA_HOME é por meio do
-      arquivo `/etc/environment`. Abra o arquivo:
-
-      ```bash
-      $ sudo nano /etc/environment
-      ```
-
-      Insira o comando abaixo atribuindo o devido caminho do Java instalado na máquina:
-
-      ```bash
-      JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
-      ```
-
-      Em seguida utilize o comando abaixo para recarregar as variáveis:
-
-      ```bash
-      $ source /etc/environment
-      ```
-
-      A partir disso a variável JAVA_HOME já deve retornar o path que foi configurado:
-
-      ```bash
-      $ echo $JAVA_HOME
-
-      /usr/lib/jvm/java-8-openjdk-amd64
-      ```
-
+  
     - Ao tentar utilizar os nós do tipo sky mote, ocorre um erro.
     - Cenário construído com os nós sky, porém a troca das mensagens não passa pelo Broker.
     - Ainda não identificado o motivo dos nós no contiki não publicarem/increverem nos topicos.
