@@ -97,9 +97,11 @@
         ![Motes MQTT-SN Criados](../../img/cenario-01-rpl-mqtt/print15.png)
 
  
-    - [ ] Configurando o cenário.
+    - [ ] Configurar o cenário.
      
-      - Clicar com o botão direito no _Border Router_ - _Motel Tool_ - _Serial Socket (Server)_
+      - [ ] Inicializar *server socket* do nó RPL *Border Router*. Clicar com o botão direito no _Border Router_ - _Mote Tool_ - _Serial Socket (Server)_ por padrão a porta que ficará escutando requisições será a `60001`, clique em `start` para iniciar o processo.
+      
+        ![Abrindo server socket do nó RPL](../../img/cenario-01-rpl-mqtt/print21.png)
 
         - `cd contiki/examples/ipv6/rpl-border-router - make connect-router-cooja`.
 
