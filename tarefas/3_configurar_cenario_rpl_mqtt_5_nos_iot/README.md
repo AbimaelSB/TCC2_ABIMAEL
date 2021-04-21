@@ -103,8 +103,11 @@
       
         ![Abrindo server socket do nó RPL](../../img/cenario-01-rpl-mqtt/print21.png)
         ![Server Socket Em execução](../../img/cenario-01-rpl-mqtt/print22.png)
-
-        - `cd contiki/examples/ipv6/rpl-border-router - make connect-router-cooja`.
+        
+        - O comando tunslip6 cria uma ponte entre a rede RPL e a máquina local.
+          - O diretório na qual o comando será executado é o `contiki/tools`.
+            - É necessário dar um `make tunslip6 ` para compilar o tunslip6.
+          - Após isso para criar a ponte use o comando: `sudo ./tunslip6 -a 127.0.0.1 aaaa::1/64`.
 
         - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - make`.
 
