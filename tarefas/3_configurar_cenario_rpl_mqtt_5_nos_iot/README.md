@@ -111,6 +111,10 @@
               
           - Após isso, para criar a ponte use o comando: `sudo ./tunslip6 -a 127.0.0.1 aaaa::1/64`.
             ![Criando a ponte com o tunslip6](../../img/cenario-01-rpl-mqtt/print24.png)
+            
+            A saída do comando tunslip6:
+            ![saída do comando tunslip6](../../img/cenario-01-rpl-mqtt/print25.png)
+          
 
         - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - make`.
 
