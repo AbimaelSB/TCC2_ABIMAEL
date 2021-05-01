@@ -99,7 +99,7 @@
  
     - [ ] Configurar o cenário.
      
-      - [ ] Inicializar *server socket* do nó RPL *Border Router*.
+      - [X] :sparkles: Inicializar *server socket* do nó RPL *Border Router*. :sparkles:
       
         - Clicar com o botão direito no _Border Router_ - _Mote Tool_ - _Serial Socket (Server)_ por padrão a porta que ficará escutando requisições será a `60001`, clique em `start` para iniciar o processo.
       
