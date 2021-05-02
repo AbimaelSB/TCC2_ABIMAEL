@@ -117,7 +117,7 @@
             A saída do comando tunslip6:
             ![saída do comando tunslip6](../../img/cenario-01-rpl-mqtt/print25.png)
           
-
+      - [ ] Inicializar Mosquitto RSMB.        
         - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - make`.
 
         - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - sudo ./broker_mqtts config.mqtt`.
