@@ -117,7 +117,8 @@
             A saída do comando tunslip6:
             ![saída do comando tunslip6](../../img/cenario-01-rpl-mqtt/print25.png)
           
-      - [ ] Inicializar Mosquitto RSMB.        
+      - [ ] Inicializar Mosquitto RSMB. 
+        - Abrir ~/contiki/mqtt-sn-contiki/tools/. Depois excluir um arquivo mosquitto.rsmb que estará vazio com o comando `rm -fr mosquitto.rsmb`. Então é necessário extrair o pacote mosquitto.rsmb.zip, utilizando o comando `unzip mosquitto.rsmb.zip`. Ao final existirá a pasta mosquitto.rsmb, contendo todos os arquivos necessário para estartar o broker.
         - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - make`.
 
         - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src - sudo ./broker_mqtts config.mqtt`.
