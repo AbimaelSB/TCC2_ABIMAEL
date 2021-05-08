@@ -122,8 +122,9 @@
         
         ![Lista de diretórios e arquivos e o arquivo principal mosquitto.rsmb](../../img/cenario-01-rpl-mqtt/print26.png)        
 
-        - Para inicializar o Broker é preciso entrar no diretório `contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src` e rodar o comando `sudo ./broker_mqtts config.mqtt`.
-        - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src & sudo ./broker_mqtts config.mqtt`.
+        - Para inicializar o Broker é preciso entrar no diretório `contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src` e rodar o comando `sudo ./broker_mqtts config.mqtt`.        
+          - `cd contiki/mqtt-sn-contiki/tools/mosquitto.rsmb/rsmb/src & sudo ./broker_mqtts config.mqtt`.
+            ![Broker MQTT-SN em execução](../../img/cenario-01-rpl-mqtt/print27.png)   
 
   - [ ] Rodar a Simulação.    
 
