@@ -72,6 +72,8 @@
 
         ![Selecionando o arquivo main_core.c](../../img/cenario-01-rpl-mqtt/print17.png)
 
+        ![Selecionando o arquivo main_core.c](../../img/cenario-01-rpl-mqtt/print17.png)
+
     - Motes MQTT-SN criados:
       ![Motes MQTT-SN Criados](../../img/cenario-01-rpl-mqtt/print15.png)
 
